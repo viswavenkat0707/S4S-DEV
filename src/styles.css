@@ -1,0 +1,14 @@
+/**
+body{
+    position: relative;
+    left: 0px;
+    overflow-x: hidden;
+    top: 0px;
+    width: 100%;
+    background: linear-gradient(180deg, #07001D 0%, #1B043D 0.01%, #1B0720 100%);
+}
+**/
+body{
+background-color: #0e0220;
+backdrop-filter: blur(7.5px);
+}
