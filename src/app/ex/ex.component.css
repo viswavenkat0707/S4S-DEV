@@ -153,6 +153,10 @@ font-size: 35px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+
+}
+.abhedm{
+    display: none;
 }
 @media only screen and (min-width:1001px) {
     
@@ -178,7 +182,9 @@ line-height: normal;
 .teamname{
     display: none;
 }
-
+.abhedm{
+    display: none;
+}
 .m2012{
 font-family: 'urbanist';
 color:#fff  ;
@@ -820,7 +826,10 @@ font-family: 'urbanist';
 }  
 
 @media only screen and ( max-width:1001px) and (min-width:777px){ 
-       
+    
+    .abhedm{
+        display: none;
+    }
 .workflowt{
     
     text-align: center;
@@ -2040,18 +2049,7 @@ font-style: normal;
 font-weight: 800;
 line-height: normal;
 } 
-.aboutusbl{
-    position:absolute;
-        width: 70px;
-    height: 20px;
-    flex-shrink: 0;
-    left: 0px;
-    top: 5px;
-    opacity:45%;
-    fill: rgba(235, 249, 255, 0.05);
-    filter: blur(35px);
-    margin-left: 160px;
-    }  
+ 
     
 .rb1{
     width: 240px;
@@ -2076,8 +2074,11 @@ overflow-x: hidden;
     margin-top: 45px;
     text-align: center;
 }
-
 .abhed{
+    display: none;
+}
+.abhedm{
+
     color: #ee9d11;
 font-family: 'Urbanist',sans-serif;
 font-size: 30px;
@@ -2087,7 +2088,7 @@ line-height: normal;
 justify-content: center;
     display: flex;
 text-align: center;
-margin-top: 40px
+margin-top: 15px;
 
 }
 .abpa{
@@ -2098,11 +2099,11 @@ font-style: normal;
 margin-top: 30px;
 line-height: 36px;
 width: 274px;
-    text-align: left;
+    text-align: justify;
     height: 150px;
     flex-shrink: 0;
-    margin-left: 0rem;
-padding-left: 10px;
+    margin-left: 3rem;
+
 }
 .brakebr{
     display:none;
