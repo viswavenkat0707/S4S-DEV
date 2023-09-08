@@ -39,20 +39,20 @@
 .wisepl{
     font-weight: bolder;
     color: #ee9d11;
-    margin-left: 10rem;
+ text-align: right;
     margin-top: 0.5rem;
 }
 .alize{
     font-weight: bolder;
     color: #ee9d11;
-    margin-left: 14rem;
+    text-align: right;
     margin-top: -19px;
 }
 
 .pothi{
     font-weight: bolder;
     color: #ee9d11;
-    margin-left: 21rem;
+  text-align: right;
     margin-top: 2rem;
 }
 .client{
