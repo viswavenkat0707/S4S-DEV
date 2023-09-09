@@ -1,47 +1,41 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+
 import { AppRoutingModule } from './app-routing.module';
-import {MatToolbarModule} from '@angular/material/toolbar';
 import { AppComponent } from './app.component';
-import {MatExpansionModule} from '@angular/material/expansion';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-import { AboutusComponent } from './aboutus/aboutus.component';
-import {MatTooltipModule} from '@angular/material/tooltip';
-import {MatCardModule} from '@angular/material/card';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatCardModule} from '@angular/material/card'; 
+import {MatMenuModule} from '@angular/material/menu';
+import { HomeComponent } from './home/home.component'
+import { FormsModule } from '@angular/forms';
 import { AboutComponent } from './about/about.component';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import { ExComponent } from './ex/ex.component';
-
+import { DataAnnotationComponent } from './data-annotation/data-annotation.component';
+import { AccessComponent } from './access/access.component';
+import { DigitalComponent } from './digital/digital.component';
+import { SoftwareComponent } from './software/software.component';
+import {MatExpansionModule} from '@angular/material/expansion';
 import { ReactiveFormsModule } from '@angular/forms';
-
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
-    AboutusComponent,
+    HomeComponent,
     AboutComponent,
-    ExComponent,
+    DataAnnotationComponent,
+    AccessComponent,
+    DigitalComponent,
+    SoftwareComponent,
 
-    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatExpansionModule,
-    MatButtonModule,
-    MatTooltipModule,
-MatCardModule,
-MatFormFieldModule,
-ReactiveFormsModule
-
-    
-    
+    BrowserAnimationsModule,
+    MatToolbarModule, MatButtonModule, MatIconModule,
+    MatTabsModule,FormsModule,MatCardModule,MatMenuModule,MatExpansionModule, ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
